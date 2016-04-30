@@ -1,13 +1,8 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 michael:
-<<<<<<< HEAD
   name: Michael Hartl
   email: mhartl@example.com
-=======
-  name: Michael Example
-  email: michael@example.com
->>>>>>> update-users
   password_digest: <%= User.digest('password') %>
   admin: true
 
